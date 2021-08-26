@@ -10,7 +10,7 @@ class Library:
     def borrowBook(self , bookName):
         if bookName in self.books:
             print(f"you have been issued this book {bookName} , please handle it with care!")
-            self.books.remove(bookName)         #if borrowing the book toh boook ko remove kardera
+            self.books.remove(bookName)         
             return True
         else:
             print("this book is not available or has already been issued")
